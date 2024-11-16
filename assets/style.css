@@ -1,1 +1,106 @@
 
+body {
+    width: 100%;
+    margin: 0;
+}
+#container {
+    width: 50%;
+    padding-top: 170px;
+    margin: 0 auto;
+}
+ul {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+a {
+    color: #616161;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.tab-notifications {
+    background: #db4437;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+}
+li.tab-notifications a {
+    color: #fff;
+}
+li.tab-notifications a:hover {
+    text-decoration: none;
+}
+.tab-notifications:hover {
+    background: #97261c;
+}
+header {
+    float: right;
+    margin-top: 20px;
+}
+li.avatar img {
+    border-radius: 30px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.google-serach-input {
+    width: 75%;
+    outline: none;
+    height: 40px;
+    margin-top: 30px;
+    padding: 2px 10px;
+    background: url(img/microphone.png) right no-repeat;
+    background-size: 25px 25px;
+    border: 1px solid #BDBDBD;
+    font-size: 1.2em;
+}
+button {
+    width: 160px;
+    height: 36px;
+    font-weight: 600;
+    background: #f2f2f2;
+    border: none;
+    color: #737373;
+    margin-left: 5px;
+    margin-top: 30px;
+    font-size: 1em;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    padding: 0 20px;
+    border-radius: 2px;
+}
+input:focus {
+    outline: none;
+    border: 1px solid #4285F4;
+}
+button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+}
+#button-center {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.grid {
+    background: url(img/grid-icon.png);
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+.grid:hover {
+    background: url(img/grid-hover.png);
+    z-index: 50;
+    height: 16px;
+    width: 16px;
+}
